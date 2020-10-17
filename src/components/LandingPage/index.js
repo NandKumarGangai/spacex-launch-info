@@ -15,7 +15,6 @@ const LandingPage = () => {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    console.log('initial call');
     setLoading(true);
     const fetchInitialData = async () =>
       await axios
@@ -34,7 +33,6 @@ const LandingPage = () => {
   }, []);
 
   useEffect(() => {
-    console.log('on change call');
     let query = '';
     if (changedYear) {
       query = `&launch_year=${changedYear}`;
@@ -66,17 +64,14 @@ const LandingPage = () => {
   }, [changedYear, launchStatus, landingStatus]);
 
   const onChangeYear = (e) => {
-    console.log('year: ', e.target.value);
     setChangedYear(e.target.value);
   };
 
   const onChangeLaunchStatus = (e) => {
-    console.log('launch: ', e.target.value);
     setLaunchStatus(e.target.value);
   };
 
   const onChangeLandingStatus = (e) => {
-    console.log('landing: ', e.target.value);
     setLandingStatus(e.target.value);
   };
 
