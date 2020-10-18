@@ -9,15 +9,13 @@ const LaunchProgram = ({ program = {} }) => {
     mission_id = [],
     launch_year,
     launch_success,
-    rocket: {
-      first_stage: { cores },
-    },
+    rocket: { first_stage: { cores = [] } = {} } = {},
   } = program;
 
   return (
     <div className='p-container'>
       <div className='image'>
-        <img src={mission_patch_small} alt={mission_name}/>
+        <img src={mission_patch_small} alt={mission_name} />
       </div>
       <h3 className='title'>{`${mission_name} #${flight_number}`}</h3>
       <h4>Mission Ids:</h4>
