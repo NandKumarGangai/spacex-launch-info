@@ -3,7 +3,6 @@ import LaunchProgram from './Program';
 import './style.scss';
 
 const LaunchPrograms = ({ launchPrograms = [], error }) => {
-  console.log(launchPrograms);
   return (
     <>
       {!error ? (
