@@ -4,7 +4,7 @@ import LaunchPrograms from '../LaunchPrograms';
 import Filters from '../Filters';
 import './style.scss';
 
-const BASE_URI = 'https://api.spaceXdata.com/v3/launches?limit=25';
+const BASE_URI = 'https://api.spaceXdata.com/v3/launches?limit=100';
 
 const LandingPage = () => {
   const [launchPrograms, setLaunchPrograms] = useState([]);
