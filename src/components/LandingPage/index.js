@@ -97,6 +97,9 @@ const LandingPage = () => {
           ) : (<h3>Loading...</h3>)}
         </div>
       </div>
+      <footer>
+        <span>Developed by: <strong>Nandkumar Gangai</strong></span>
+      </footer>
     </>
   );
 };
