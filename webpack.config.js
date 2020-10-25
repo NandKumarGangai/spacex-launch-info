@@ -30,7 +30,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'build'),
-    port: 9000,
+    port: 3000,
   },
   plugins: [
     new HtmlWebpackPlugin({
