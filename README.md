@@ -1,13 +1,11 @@
-# spacex-launch-info
+# Spacex Launch Info
 
-# All About Crypto Universe
+Technologies used: **React**   
+Live: https://nandkumargangai.github.io/spacex-launch-info/  
 
-Technologies used: **React, Redux Toolkit**   
-Live: https://nandkumargangai.github.io/all-about-crypto-universe/  
+![image](https://user-images.githubusercontent.com/24850047/147871945-4463297b-59bc-435a-86e6-137b0b18668d.png)  
 
-![image](https://user-images.githubusercontent.com/24850047/147854709-8df37a03-f0af-40e0-830b-b73b4c3ab6a3.png)
-
-
+<hr />
 ## Available Scripts
 
 In the project directory, you can run:
