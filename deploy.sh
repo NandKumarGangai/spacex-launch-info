@@ -12,6 +12,10 @@ cd dist
 
 git init
 git add -A
+
+git config user.email "you@example.com"
+git config user.name "Your Name"
+
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
